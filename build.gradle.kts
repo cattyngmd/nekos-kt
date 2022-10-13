@@ -16,3 +16,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
     implementation("com.github.kevinsawicki:http-request:6.0")
 }
+
+java {
+    withSourcesJar()
+}
